@@ -22,7 +22,7 @@ const FarGalaxy = () => {
     }, [])
 
     return (
-        <p className="farGalaxy">
+        <p className={'text-[2em] tracking-[.2em] leading-[1.5] text-justify p-[.2em]'}>
             {openingCrawl}
         </p>
     );
