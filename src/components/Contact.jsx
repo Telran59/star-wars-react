@@ -30,11 +30,11 @@ const Contact = () => {
             e.preventDefault();
         }}>
             <label className={`w-full text-red-color`}>First Name
-                <input className={`border w-full p-3 border-[#ccc] rounded-[4px] mt-1.5 mb-4 resize-y`} type="text"
+                <input className={`text-black border w-full p-3 border-[#ccc] rounded-[4px] mt-1.5 mb-4 resize-y`} type="text"
                        name="firstname" placeholder="Your first name..."/>
             </label>
             <label className={`w-full text-red-color`}>Last Name
-                <input className={`border w-full p-3 border-[#ccc] rounded-[4px] mt-1.5 mb-4 resize-y`} type="text"
+                <input className={`text-black border w-full p-3 border-[#ccc] rounded-[4px] mt-1.5 mb-4 resize-y`} type="text"
                        name="lastname" placeholder="Your last name..."/>
             </label>
             <label className={`w-full text-red-color`}>Planet
@@ -45,7 +45,7 @@ const Contact = () => {
                 </select>
             </label>
             <label className={`w-full text-red-color`}>Subject
-                <textarea className={`border h-52 w-full p-3 border-[#ccc] rounded-[4px] mt-1.5 mb-4 resize-y`}
+                <textarea className={`text-black border h-52 w-full p-3 border-[#ccc] rounded-[4px] mt-1.5 mb-4 resize-y`}
                           name="subject" placeholder="Write something..."/>
             </label>
             <button
